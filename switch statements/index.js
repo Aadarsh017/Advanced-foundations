@@ -55,15 +55,18 @@
 
 // traficLight("🔴")
 
-`the answer is ${x}  of course ! if u got right
-     , give yourself ${y} point`
+// `the answer is ${x}  of course ! if u got right
+//      , give yourself ${y} point`
 
 
 
 
-function answer() {
-    console.log(`the answer is ${x}  of course ! if u got right
+function answer(x,y) {
+ console.log(`the answer is ${x}  of course ! if u got right
      , give yourself ${y} point`);
+    
     
 }
 console.log('What is the capital of peru');
+
+     setTimeout(answer , 3000, "pihu", 9)
