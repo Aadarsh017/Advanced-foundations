@@ -60,6 +60,7 @@
 
 
 
+let stop_el = document.getElementById("stop")
 
 function answer(x,y) {
  console.log(`the answer is ${x}  of course ! if u got right
@@ -68,5 +69,14 @@ function answer(x,y) {
     
 }
 console.log('What is the capital of peru');
+let time = setTimeout(answer , 3000, "pihu", 9)
+  stop_el.addEventListener("click", function () {
+     clearTimeout(time)
+     console.log("the answer will me stoped")
+  }
+     
 
-     setTimeout(answer , 3000, "pihu", 9)
+)
+     
+     
+ 
