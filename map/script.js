@@ -9,6 +9,27 @@ const products = [
 
 ]
 
+let priceitem= products.map((a)=>{
+
+let things = {
+    id: a.id,
+    name: a.name,
+    price: a.price,
+    discount: a.price - ((a.discount*a.price)/100)
+   
+}
+ return things
+})
+
+
+console.log(priceitem);
+
+
+
+
+
+
+
 // let qube = numbers.map(function (a,b,c) {
 //     let ans = a * a 
 //     return ans
@@ -29,4 +50,6 @@ const products = [
    
 
 // console.log(qube);
+
+
 
