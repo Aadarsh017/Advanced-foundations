@@ -17,4 +17,4 @@ numbers.forEach((a)=>{   // most improtant thing it doesnot return anything , it
 
 })
 
-console.log(sqr);
+console.log(sqr)
